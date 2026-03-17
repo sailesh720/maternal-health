@@ -1,0 +1,6 @@
+name,age,village,district,phone,pregnancy_week,expected_due_date,medical_conditions,emergency_contact
+Ananya Das,24,Rampur,Varanasi,9900001111,22,2025-05-20,,9900001112
+Bhavna Soni,30,Sitapur,Lucknow,9900002222,35,2025-02-18,hypertension,9900002223
+Chanda Tomar,18,Devgarh,Varanasi,9900003333,16,2025-07-10,anaemia,9900003334
+Deepa Rai,27,Chandpur,Allahabad,9900004444,28,2025-04-05,,9900004445
+Esha Bajaj,37,Nandgaon,Allahabad,9900005555,32,2025-03-15,diabetes;hypertension,9900005556

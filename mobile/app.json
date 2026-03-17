@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MaternaCare",
+    "slug": "materna-care",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d1629"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.materna.care"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0d1629"
+      },
+      "package": "com.materna.care"
+    },
+    "plugins": [
+      
+      "expo-secure-store"
+    ],
+    "scheme": "materna-care",
+    "extra": {
+      "apiUrl": "http://192.168.1.102:8000",
+      "wsUrl": "ws://192.168.1.102:8000/ws/vitals"
+    }
+  }
+}
