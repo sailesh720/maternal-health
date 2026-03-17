@@ -20,7 +20,7 @@ export function PatientsPage() {
     refetchInterval: 60000,
   })
 
-  const villages: string[] = [...new Set((patients ?? []).map((p: Patient) => p.village))]
+  const villages: string[] = [...new Set<string>((patients ?? []).map((p: Patient) => p.village))]
 
   const filtered = (patients ?? []).filter((p: Patient) => {
     const q = search.toLowerCase()
